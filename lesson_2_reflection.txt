@@ -1,0 +1,7 @@
+- What happens when you initialize a repository? Why do you need to do it?
+
+A hidden .git folder is created to store the version meta data information in the form of objects. This way you can track your files on your own computer without having to conncect to internet.
+
+- How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Staging area contains transient data. It only temperarily retain the file information. This attribute let it create some lee way.  
