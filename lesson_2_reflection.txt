@@ -4,4 +4,22 @@ A hidden .git folder is created to store the version meta data information in th
 
 - How is the staging area different from the working directory and the repository? What value do you think it offers?
 
-Staging area contains transient data. It only temperarily retain the file information. This attribute let it create some lee way.  
+Staging area contains transient data. It only temperarily retain the file information. This attribute let it create some lee way.
+
+- How can you use the staging area to make sure you have one commit per logical change?
+Add each file to staging area one at a time.
+
+- What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches can help you organize by feature and releases. Using branches allows you to test a new feature in an isolated environment that's seperated from the main branch. Then merge back the changes to the main branch when ready.
+
+- How do the diagrams help you visualize the branch structure?
+With diagrams you get to see each commit's parent and their tracability.
+
+
+- What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+When merging two branches together, both branchs' history will be kept and become tracable from this new merged branch. To explain the relationship between 3 commit points.
+
+
+- What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+The good thing about automatic merging is that it's quick and hassel free while its down side also stems from that - it doesn't have the artificial intellegence to decide which content to keep or discard when the conflict is trickier that require personal communication.
