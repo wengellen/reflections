@@ -1,2 +1,6 @@
-When sould you want to create a remote repository rather than keeping all your work local?
+-When sould you want to create a remote repository rather than keeping all your work local?
 When collaborating with other students and sharing files.
+
+
+-Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+In case you are on the master branch and are in the middle of working on some files, if git automatically pull the files from remote for you, there might introduce conflict.
