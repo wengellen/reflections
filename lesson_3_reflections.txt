@@ -4,3 +4,10 @@ When collaborating with other students and sharing files.
 
 -Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 In case you are on the master branch and are in the middle of working on some files, if git automatically pull the files from remote for you, there might introduce conflict.
+
+
+-Describe the differences between forks, clones, and branches. When would you use one instead of another?
+When pushing to a forked repositoy, the commit will only show up in the commit history of the forked repo. It will not show up in the original repository.
+When pushing to a cloned branches, the commit will show up in the commit history of the remote repository.
+Branches are just labels for commits.
+Use forked repo, you can trace back to the original repo.
